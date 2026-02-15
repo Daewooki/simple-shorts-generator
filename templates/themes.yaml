@@ -1,0 +1,56 @@
+# ============================================
+# 슬라이드 테마 설정
+# ============================================
+# 색상은 HEX 코드로 입력 (예: "#FF0000")
+# gradient: 위에서 아래로 적용되는 그라데이션 색상 리스트
+
+themes:
+  # 🌅 오늘의 명언
+  quote:
+    gradient: ["#0f0c29", "#302b63", "#24243e"]
+    title_color: "#FFD700"
+    text_color: "#FFFFFF"
+    accent_color: "#FF6B6B"
+    subtitle_color: "#B0B0B0"
+    emoji: "✨"
+    intro_title: "오늘의 명언"
+
+  # 📚 영어 공부
+  english:
+    gradient: ["#11998e", "#38ef7d"]
+    title_color: "#FFFFFF"
+    text_color: "#FFFFFF"
+    accent_color: "#FFE66D"
+    subtitle_color: "#E0FFE0"
+    emoji: "📚"
+    intro_title: "오늘의 영어"
+
+  # 💡 오늘의 상식
+  knowledge:
+    gradient: ["#FC466B", "#3F5EFB"]
+    title_color: "#FFFFFF"
+    text_color: "#FFFFFF"
+    accent_color: "#FFD93D"
+    subtitle_color: "#D0D0FF"
+    emoji: "💡"
+    intro_title: "오늘의 상식"
+
+  # 🧠 동기부여
+  motivation:
+    gradient: ["#f12711", "#f5af19"]
+    title_color: "#FFFFFF"
+    text_color: "#FFFFFF"
+    accent_color: "#FFFFFF"
+    subtitle_color: "#FFF5E0"
+    emoji: "🔥"
+    intro_title: "오늘의 동기부여"
+
+  # ✏️ 커스텀
+  custom:
+    gradient: ["#667eea", "#764ba2"]
+    title_color: "#FFFFFF"
+    text_color: "#FFFFFF"
+    accent_color: "#FFD700"
+    subtitle_color: "#E0D0FF"
+    emoji: "📌"
+    intro_title: "오늘의 정보"

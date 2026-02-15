@@ -1,0 +1,45 @@
+# ============================================
+# AI Shorts Generator 설정 파일
+# ============================================
+
+# Gemini API 설정
+gemini:
+  api_key: "여기에_GEMINI_API_키를_입력하세요"
+  model: "gemini-2.0-flash"  # 무료 크레딧으로 사용 가능
+
+# 영상 설정
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  slide_duration: 5        # 각 슬라이드 표시 시간 (초)
+  transition_duration: 0.5  # 전환 효과 시간 (초)
+  
+# TTS (나레이션) 설정
+tts:
+  enabled: true            # true: TTS 나레이션 포함 / false: 무음 영상
+  voice: "ko-female"       # ko-female, ko-male, en-female, en-male
+  rate: "+0%"              # 읽기 속도 (-50% ~ +50%)
+  # 💡 edge-tts 사용 (무료, API 키 불필요)
+  # 사용 가능한 음성:
+  #   ko-female  = ko-KR-SunHiNeural  (한국어 여성)
+  #   ko-male    = ko-KR-InJoonNeural (한국어 남성)
+  #   en-female  = en-US-JennyNeural  (영어 여성)
+  #   en-male    = en-US-GuyNeural    (영어 남성)
+
+# 배경음악 설정
+bgm:
+  enabled: false           # true로 변경하면 BGM 적용
+  volume: 0.15             # 볼륨 (0.0 ~ 1.0, TTS와 함께 사용 시 낮게 설정 권장)
+  # assets/bgm/ 폴더에 .mp3 파일을 넣어주세요
+
+# 출력 설정  
+output:
+  directory: "output"
+  filename_prefix: "shorts"  # shorts_20250214_quote.mp4 형식
+
+# 폰트 설정
+font:
+  # 기본 폰트 (Noto Sans KR - 자동 다운로드)
+  # 커스텀 폰트를 사용하려면 assets/fonts/ 에 .ttf 파일을 넣고 경로를 지정하세요
+  custom_font: null  # 예: "assets/fonts/MyFont.ttf"

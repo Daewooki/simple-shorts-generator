@@ -1,0 +1,23 @@
+# API 키가 포함된 설정 파일
+config.yaml
+
+# 생성된 영상 및 임시 파일
+output/*.mp4
+output/_temp_slides/
+output/_temp_tts/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.env
+
+# 다운로드된 폰트 (용량이 크므로)
+assets/fonts/*.ttf
+
+# OS
+.DS_Store
+Thumbs.db
